@@ -64,13 +64,40 @@ https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html
 
 
 ## 2. Create parser for each state
+<code>
+
+    use the state link to grab html:
+        use html to grab info:
+            result = {
+                'State': html.state,
+                'County': html.county,
+                'Lat': find latitude using county name,
+                'Long': find latitude using county name,
+                'Updated': now,
+                'Confirmed': html.confirmed,
+                'Deaths': html.deaths,
+                'Recovered': html.recovered,
+                'Active': html.active,
+            }
+        return result
+    
+</code> 
 
 ## 3. Build scraper and run for each state
+<code>
 
-## Ideas:
+    for each state:
+        results = parse(state.url, state.parser)
+        add results to dataset
+    
+    save results
+    
+</code>
+
+## Additional Ideas:
 1. Include county information so we can map more specifcally
 
-## Shape:
+## Final Data Shape:
 | ID|     State      | County  |  Lat  |  Long  | Updated  | Confirmed | Deaths | Recovered | Active |
 |---|----------------|---------|-------|--------| ---------| ----------|--------|-----------|--------|
 |  0| South Carolina | Horry   | 34.22 | -82.46	|2020-04-02| 6         | 0      | 0         | 0      |
