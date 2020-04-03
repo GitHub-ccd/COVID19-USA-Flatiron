@@ -2,6 +2,7 @@
 
 COVID-19 data scraping, cleaning and analysis by dsc-03022020-Flariron cohort
 ## Contributing:
+### Phase 1 (list of urls to scrape):
 1. Fork this repository
 2. Clone onto your computer
 3. Pick a state that does not have a link
@@ -10,6 +11,12 @@ COVID-19 data scraping, cleaning and analysis by dsc-03022020-Flariron cohort
 6. Update the site table below with the new link
 7. Save and push to your github
 8. Go to your github and submit a pull request
+
+### Phase 2 (creating html parsers):
+//TODO
+
+### Phase 3 (creating scraper):
+//TODO
 
 ## List of state gov websites to scrape
 ### List of State URLS to scrape:
