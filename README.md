@@ -1,13 +1,18 @@
 # COVID19-USA-Flatiron
 
 COVID-19 data scraping, cleaning and analysis by dsc-03022020-Flariron cohort
+## Contributing:
+1. Fork this repository
+2. Clone onto your computer
+3. Pick a state that does not have a link
+4. Click on this [link](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html) and find the state you chose
+5. Search the state site until you find a page that lists the data per county
+6. Update the site table below with the new link
+7. Save and push to your github
+8. Go to your github and submit a pull request
 
-## 1. Create list of state gov websites to scrape
+## List of state gov websites to scrape
 ### List of State URLS to scrape:
-
-Base state urls, start here and find the page that contains the data for the counties: 
-https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html
-
 
 | State             | Link                  |
 |-------------------|-----------------------|
@@ -63,7 +68,7 @@ https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html
 |Wyoming|
 
 
-## 2. Create parser for each state
+## Parser for each states html
 <code>
 
     use the state link to grab html:
@@ -83,7 +88,7 @@ https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html
     
 </code> 
 
-## 3. Build scraper and run for each state
+## Build scraper and run for each state
 <code>
 
     for each state:
