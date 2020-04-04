@@ -12,6 +12,11 @@ COVID-19 data scraping, cleaning and analysis by dsc-03022020-Flariron cohort
 7. Save and push to your github
 8. Go to your github and submit a pull request
 
+### short term objective
+//TODO
+able to have a bar chart race animation such as [lick](https://www.mercurynews.com/2020/04/03/watch-the-stunning-growth-of-coronavirus-cases-in-californias-hardest-hit-counties/) but for counties of each state or city
+
+
 ### Phase 2 (creating html parsers):
 //TODO
 
